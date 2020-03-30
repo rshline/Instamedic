@@ -1,0 +1,50 @@
+body {
+  font-size: 20px;
+  color: #1e1e1e;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    background: #FFF;
+}
+
+#nav .navbar-brand {
+    font-weight: bold;
+    font-size: 36px;
+    color: #3F3D56;
+}
+
+#nav .navbar-nav > button.nav-item {
+    border-radius: 8px;
+    margin: 2px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#header {
+    background: #FFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+footer {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-footer {
+    background: #8FB9A8;
+}
+
+.footer-copyright {
+    background: #38374D;
+}
+
+.page-footer .logo{
+    font-weight: bold;
+    font-size: 36px;
+}
+
