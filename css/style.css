@@ -4,13 +4,27 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+#wrapper {
+    display: flex;
+}
+
+#sidebar {
+    height: 100%;
+}
+
+#content-wrapper{
+    background-color:#f8f9fc;
+    width:100%;
+    overflow-x:hidden
+}
+
 #nav {
     position: fixed;
     top: 0;
     background: #FFF;
 }
 
-#nav .navbar-brand {
+.navbar-brand {
     font-weight: bold;
     font-size: 36px;
     color: #3F3D56;
@@ -21,6 +35,18 @@ body {
     margin: 2px;
     font-weight: 500;
     font-size: 18px;
+}
+
+#navbar-nav{
+    background: #38374D;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+#nav-konten {
+    background: rgba(196, 196, 196, 0.19);
 }
 
 #header {
@@ -48,3 +74,27 @@ footer {
     font-size: 36px;
 }
 
+.form-konten {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-konten > input {
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.form-konten > button {
+    background: #8FB9A8;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-konten > button:hover {
+    background: #729486;
+    border: none;
+    border-radius: 8px;
+}

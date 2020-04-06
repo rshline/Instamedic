@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS dan Bootstrap -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Instamedic</title>
+</head>
+<body id="home-doctor">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <!-- sidebar -->
+            <div class="col-2 bg-dark position-fixed" id="sidebar">
+                <nav class="navbar navbar-expand mb-4 static-top">
+                    <a class="navbar-brand text-white mx-auto" href="#">Instamedic</a>
+                </nav>
+                <ul class="navbar-nav">
+                    <hr class="sidebar-divider">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-white" href="homedokter.html"><span>Home</span></a>
+                    </li>
+                    <hr class="sidebar-divider">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-white" href="obatdokter.html"><span>Obat</span></a>
+                    </li>
+                    <hr class="sidebar-divider">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-white" href="konsuldokter.html"><span>Konsultasi</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Konten-->
+            <div class="col offset-2">
+                <nav class="navbar navbar-expand navbar-light p-3 mb-4 static-top">
+                    <p class="my-auto">Selamat datang, <b>dr. </b></p>
+                    <i class="fas fa-sign-out-alt ml-auto">Keluar</i>
+                </nav>
+                
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <form class="form-konten col-xs-3">
+                        <div class="form-group">
+                            <label for="nama">Nama Obat</label>
+                            <input type="text" class="form-control" id="inputNamaObat" aria-describedby="nameHelp" disabled>
+                        </div>
+                        <div class="form-group col-xs-3">
+                            <label for="desc">Deskripsi</label>
+                            <input type="text" class="form-control" id="inputDesc" aria-describedby="descHelp" disabled>
+                        </div>
+                        <div class="form-group col-xs-3">
+                            <label for="kategori">Kategori</label>
+                            <input type="text" class="form-control" id="inputKategori" aria-describedby="katHelp" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label for="fotoobat">Foto Obat</label>
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>                      
+                        </div>
+                        <button type="submit" class="btn btn-primary ml-auto">Batalkan</button>
+                        <button type="submit" class="btn btn-primary ml-auto">Simpan</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <img src="https://drive.google.com/uc?id=1SWcE1-j1BThHQ83-Qnl_x-C8uWXCioiP" alt="Profil" width="60%">
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
