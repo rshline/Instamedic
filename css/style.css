@@ -98,3 +98,22 @@ footer {
     border: none;
     border-radius: 8px;
 }
+
+.btnWhite {
+    color: #8FB9A8;
+    border: #8FB9A8;
+    border-radius: 8px;
+}
+
+.btnGreen {
+    color: white;
+    background: #8FB9A8;
+    border: none;
+    border-radius: 8px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 36px;
+    color: #3F3D56;
+}
