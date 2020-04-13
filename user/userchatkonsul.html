@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS dan Bootstrap -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Instamedic</title>
+</head>
+<body id="home-doctor">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <!-- sidebar -->
+            <div class="col-2 bg-dark position-fixed" id="sidebar">
+                <nav class="navbar navbar-expand mb-4 static-top">
+                    <a class="navbar-brand text-white mx-auto" href="#">Instamedic</a>
+                </nav>
+                <ul class="navbar-nav">
+                    <hr class="sidebar-divider">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-white" href="homedokter.html"><span>Home</span></a>
+                    </li>
+                    <hr class="sidebar-divider">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-white" href="obatdokter.html"><span>Obat</span></a>
+                    </li>
+                    <hr class="sidebar-divider">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-white" href="konsuldokter.html"><span>Konsultasi</span></a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="col offset-2">
+                <nav class="navbar navbar-expand navbar-light p-3 mb-4 static-top">
+                    <p class="my-auto">Selamat datang, <b>dr. </b></p>
+                    <i class="fas fa-sign-out-alt ml-auto">Keluar</i>
+                </nav>
+                
+                <!--Konten-->
+                <div class="row justify-content-center">
+                    <div class="row">
+                        <div class="col">
+                            <h5>Pesan dikirim oleh: Tingkiwingki</h5>
+                            <div class="panel panel-default">
+                                <div class="panel-heading top-bar">
+                                    <div class="col-md-8 col-xs-8">
+                                        <a href="listkonsultasi.html" class="button">Kembali</a>
+                                        <h5 class="panel-title"> Judul Konsultasi</h5>
+                                    </div>
+                                    <div class="col-md-4 col-xs-4" style="text-align: right;">
+                                        <a href="#"><span id="minim_chat_window" class="glyphicon glyphicon-minus icon_minim"></span></a>
+                                        <a href="#"><span class="glyphicon glyphicon-remove icon_close" data-id="chat_window_1"></span></a>
+                                    </div>
+                                </div>
+                                <div class="panel-body msg_container_base">
+                                    <div class="row msg_container base_receive">
+                                        <div class="col-xs-10 col-md-10">
+                                            <div class="messages msg_receive">
+                                                <p>Selamat pagi</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row msg_container base_sent">
+                                        <div class="col-md-10 col-xs-10">
+                                            <div class="messages msg_sent">
+                                                <p>Selamat pagi</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-footer">
+                                    <div class="input-group">
+                                        <input id="btn-input" type="text" class="form-control input-sm chat_input" placeholder="Write your message here..." />
+                                        <span class="input-group-btn">
+                                        <button class="btn btn-primary btn-sm" id="btn-chat">Send</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="https://drive.google.com/uc?id=1INAYlJgRNNxhubE8s0hLy7qEIvoUNPC0" alt="Profil" width="60%">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>   
+</body>
+</html>

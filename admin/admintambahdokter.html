@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- CSS dan Bootstrap -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -26,15 +26,15 @@
                 <ul class="navbar-nav">
                     <hr class="sidebar-divider">
                     <li class="nav-item mx-auto">
-                        <a class="nav-link text-white" href="homedokter.html"><span>Home</span></a>
+                        <a class="nav-link text-white" href="adminhome.html"><span>Home</span></a>
                     </li>
                     <hr class="sidebar-divider">
                     <li class="nav-item mx-auto">
-                        <a class="nav-link text-white" href="obatdokter.html"><span>Obat</span></a>
+                        <a class="nav-link text-white" href="adminobat.html"><span>Obat</span></a>
                     </li>
                     <hr class="sidebar-divider">
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link text-white" href="konsuldokter.html"><span>Konsultasi</span></a>
+                    <li class="nav-item active mx-auto">
+                        <a class="nav-link text-white" href="admindokter.html"><span>Dokter</span></a>
                     </li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@
             <!--Konten-->
             <div class="col offset-2">
                 <nav class="navbar navbar-expand navbar-light p-3 mb-4 static-top">
-                    <p class="my-auto">Selamat datang, <b>dr. </b></p>
+                    <p class="my-auto">Selamat datang, <b>admin </b></p>
                     <i class="fas fa-sign-out-alt ml-auto">Keluar</i>
                 </nav>
                 
@@ -50,7 +50,7 @@
                     <div class="col">
                         <form class="form-konten col-xs-3">
                         <div class="form-group">
-                            <label for="nama">Nama</label>
+                            <label for="nama">Nama lengkap</label>
                             <input type="text" class="form-control" id="inputNamaDokter" aria-describedby="nameHelp">
                         </div>
                         <div class="form-group col-xs-3">
@@ -59,17 +59,22 @@
                         </div>
                         <div class="form-group col-xs-3">
                             <label for="email">E-mail</label>
-                            <input type="text" class="form-control" id="inputEmailDokter" aria-describedby="emailHelp" disabled>
+                            <input type="text" class="form-control" id="inputEmailDokter" aria-describedby="emailHelp">
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="inputPassword">
                         </div>
-                        <button type="submit" class="btn btn-primary ml-auto">Ubah Profil</button>
+                        <div class="form-group col-xs-3">
+                            <label for="email">Spesialis</label>
+                            <input type="text" class="form-control" id="inputSpesialis" aria-describedby="spesialisHelp">
+                        </div>
+                        <button type="submit" class="btn btn-outline-success ml-auto" href="admindokter.html">Batalkan</button>
+                        <button type="submit" class="btn btn-success ml-auto">Simpan</button>
                         </form>
-                    </div>
+                    </div> 
                     <div class="col">
-                        <img src="https://drive.google.com/uc?id=1TO7omY2bjjJ9VtoErqVGzwLD8PIs13y6" alt="Profil" width="70%">
+                        <img src="https://drive.google.com/uc?id=1INAYlJgRNNxhubE8s0hLy7qEIvoUNPC0" alt="Profil" width="60%">
                     </div>
                 </div>
 

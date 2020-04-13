@@ -20,11 +20,11 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
         <div class="container">
-        <a class="navbar-brand logo" href="#">Instamedic</a>
+        <a class="navbar-brand logo" href="#">Insta<style color:#8FB9A8;>medic</style> </a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <form class="form-inline navbar-nav ml-auto">
-                <button class="btn btn-outline-success my-2 my-sm-0 nav-item" type="submit">Masuk</button>
-                <button class="btn btn-outline-success my-2 my-sm-0 nav-item" type="submit">Daftar</button>
+                <button class="btn btn-outline-success nav-item btnWhite" type="submit">Masuk</button>
+                <button class="btn btnGreen" type="submit">Daftar</button>
             </form>
         </div>
         </div>
@@ -34,17 +34,40 @@
     <div class="jumbotron text-center" id="header">
         <img class="my-3" src="https://drive.google.com/uc?id=1RIxaOjd8MMtKttY_9_U3rhsgKivHwBGe" alt="Instamedic Medical Care" width="50%" > 
         <p class="mx-lg-5 px-lg-5">Instamedic merupakan sebuah platform yang akan membantu kamu <b>berkonsultasi</b> dan merekomendasikan <b>obat</b>x yang sesuai dengan penyakit yang kamu alami </p>
-
-        <a class="btn btn-primary btn-lg m-1" href="#" role="button">Konsultasi Sekarang</a>
-        <p class="m-1">atau</p>
-        <a class="btn btn-primary btn-lg m-1" href="#" role="button">Kamu sakit apa? ex: Batuk, Pilek, Pusing</a>
+        <form>
+            <a class="btn btn-primary btnGreen" href="login.html" role="button">Konsultasi Sekarang</a>
+            <p class="m-1">atau</p>
+            <input type="text" class="form-control mx-sm-3" placeholder="Kamu sakit apa? ex: Batuk, Pilek, Pusing" role="button" data-toggle="collapse" href="#resultObat" aria-expanded="false" aria-controls="cariObat">
+            </div>
+        </form>
+        
+        <!--Hasil pencarian obat-->
+        <div class="row" id="resultObat">
+            <p>Hasil pencarian obat dari sakit: <b>Batuk</b></p>
+            <div class="card">
+                <div class="card-body">
+                    <img src="" alt="fotoObat">
+                    <h5 class="card-title">Woods Batuk Berdahak</h5>
+                    <p class="card-text">Deskripsiasjdlashgdias.</p>
+                    <p>Kategori:</p>
+                        <ul>
+                                <li>Batuk</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <!--Obat Tidak ada-->
+        <div class="row" id="resultObat">
+            <p>Hasil pencarian obat dari sakit: <b>Corona</b></p>
+            <img src="#">
+        </div>
     </div> 
     </div>
 
     <!-- Footer -->
     <footer class="page-footer text-center">
-        <div class="container-fluid py-lg-5">
-            <p id="logo">Instamedic</p>
+        <div class="container-fluid py-lg-5 m-lg-5">
+            <p class="logo">Instamedic</p>
             <p>Jl. Telekomunikasi Jl. Terusan Buah Batu, Sukapura, Kec. Dayeuhkolot, Bandung, Jawa Barat 40257</p>
         </div>
         <div class="footer-copyright pt-3 pb-1">

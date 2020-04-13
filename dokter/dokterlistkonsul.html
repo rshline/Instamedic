@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- CSS dan Bootstrap -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -19,22 +19,22 @@
     <div class="container-fluid">
         <div class="row no-gutter">
             <!-- sidebar -->
-            <div class="col-2 bg-dark position-fixed" id="sidebar">
-                <nav class="navbar navbar-expand mb-4 static-top">
-                    <a class="navbar-brand text-white mx-auto" href="#">Instamedic</a>
+            <div class="col-3 bg-dark position-fixed" id="sidebar">
+                <nav class="navbar navbar-expand navbar-light topbar mb-4 static-top">
+                    <p class="logo">Instamedic</p>
                 </nav>
                 <ul class="navbar-nav">
-                    <hr class="sidebar-divider">
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link text-white" href="homedokter.html"><span>Home</span></a>
+                    <hr class="sidebar-divider my-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dokterhome.html"><span>Home</span></a>
                     </li>
                     <hr class="sidebar-divider">
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link text-white" href="obatdokter.html"><span>Obat</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dokterobat.html"><span>Obat</span></a>
                     </li>
                     <hr class="sidebar-divider">
-                    <li class="nav-item mx-auto">
-                        <a class="nav-link text-white" href="konsuldokter.html"><span>Konsultasi</span></a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="dokterlistkonsul.html"><span>Konsultasi</span></a>
                     </li>
                 </ul>
             </div>
@@ -46,44 +46,31 @@
                     <i class="fas fa-sign-out-alt ml-auto">Keluar</i>
                 </nav>
 
-                <h3>List Dokter</h3>
-                <button type="submit" class="btn btn-primary ml-auto">Tambah Obat</button>
+                <h3>List Pesan</h3>
                 <table class="table">
                     <thead class="thead-dark">
                       <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Nama Obat</th>
-                        <th scope="col">Deskripsi</th>
-                        <th scope="col">Kategori</th>
+                        <th scope="col">Pengirim</th>
+                        <th scope="col">Judul Pesan</th>
                         <th scope="col">Aksi</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
-                        <td>Woods Batuk Berdahak</td>
-                        <td>Obat yang digunakan untuk membantu meredakan batuk berdahak.</td>
-                        <td>Batuk, Batuk berdahak</td>
+                        <td>Tingkiwingki</td>
+                        <td>jantung</td>
                         <td>
-                            <a href="#">edit</a> | <a href="#">hapus</a>
+                            <a href="#">baca</a> | <a href="#">hapus</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
-                        <td>Woods Batuk Kering</td>
-                        <td>Obat yang digunakan untuk membantu meredakan batuk kering.</td>
-                        <td>Batuk, Batuk kering</td>
+                        <td>Dipsy</td>
+                        <td>Jantung lemah</td>
                         <td>
-                            <a href="#">edit</a> | <a href="#">hapus</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>OBH Combi Flu & Batuk</td>
-                        <td>Obat yang digunakan untuk membantu meredakan batuk dan flu</td>
-                        <td>Batuk, Flu</td>
-                        <td>
-                            <a href="#">edit</a> | <a href="#">hapus</a>
+                            <a href="#">baca</a> | <a href="#">hapus</a>
                         </td>
                       </tr>
                     </tbody>
