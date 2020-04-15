@@ -15,7 +15,7 @@
 
     <title>Instamedic</title>
 </head>
-<body id="home-doctor">
+<body>
     <div class="container-fluid">
         <div class="row no-gutter">
             <!-- sidebar -->
@@ -24,16 +24,16 @@
                     <a class="navbar-brand text-white mx-auto" href="#">Instamedic</a>
                 </nav>
                 <ul class="navbar-nav">
-                    <hr class="sidebar-divider my-0">
-                    <li class="nav-item">
+                    <hr class="sidebar-divider">
+                    <li class="nav-item active mx-auto">
                         <a class="nav-link text-white mx-auto" href="dokterhome.html"><span>Home</span></a>
                     </li>
                     <hr class="sidebar-divider">
-                    <li class="nav-item active">
-                        <a class="nav-link text-white mx-auto active" href="dokterobat.html"><span>Obat</span></a>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link text-white mx-auto" href="dokterobat.html"><span>Obat</span></a>
                     </li>
                     <hr class="sidebar-divider">
-                    <li class="nav-item">
+                    <li class="nav-item mx-auto">
                         <a class="nav-link text-white mx-auto" href="dokterlistkonsul.html"><span>Konsultasi</span></a>
                     </li>
                 </ul>
@@ -46,8 +46,9 @@
                     <i class="fas fa-sign-out-alt ml-auto">Keluar</i>
                 </nav>
                 
-                <div class="row justify-content-center">
-                    <div class="col">
+                <div class="row ml-4 px-4">
+                    <div class="col m">
+                        <h3>Tambah Obat</h3>
                         <form class="form-konten col-xs-3">
                         <div class="form-group">
                             <label for="nama">Nama Obat</label>
@@ -66,12 +67,13 @@
                             <input type="file" class="custom-file-input" id="validatedCustomFile" required>
                             <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>                      
                         </div>
-                        <button type="submit" class="btn btn-primary ml-auto">Batalkan</button>
-                        <button type="submit" class="btn btn-primary ml-auto">Simpan</button>
+                        <button type="submit" class="btn btnGreen float-right mx-1">Simpan</button>
+                        <button type="submit" class="btn btnWhite float-right mx-1">Batalkan</button>
+                        
                         </form>
                     </div>
                     <div class="col">
-                        <img src="https://drive.google.com/uc?id=1gLt9Owr8tO3IlQ_l2t-5jBvNhncZqUIZ" alt="Profil" width="60%">
+                        <img src="../img/undraw_contract_uy56.svg" alt="Profil" width="350px">
                     </div>
                     
                 </div>

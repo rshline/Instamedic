@@ -24,16 +24,16 @@
                     <a class="navbar-brand text-white mx-auto" href="#">Instamedic</a>
                 </nav>
                 <ul class="navbar-nav">
-                    <hr class="sidebar-divider my-0">
-                    <li class="nav-item">
+                    <hr class="sidebar-divider">
+                    <li class="nav-item active mx-auto">
                         <a class="nav-link text-white mx-auto" href="dokterhome.html"><span>Home</span></a>
                     </li>
                     <hr class="sidebar-divider">
-                    <li class="nav-item">
+                    <li class="nav-item mx-auto">
                         <a class="nav-link text-white mx-auto" href="dokterobat.html"><span>Obat</span></a>
                     </li>
                     <hr class="sidebar-divider">
-                    <li class="nav-item active">
+                    <li class="nav-item mx-auto">
                         <a class="nav-link text-white mx-auto" href="dokterlistkonsul.html"><span>Konsultasi</span></a>
                     </li>
                 </ul>
@@ -45,48 +45,42 @@
                     <p>Selamat datang, <b>dr. </b></p>
                 </nav>
                 <!--Chat Konsultasi-->
-                <div class="row">
+                <div class="row mx-4">
                     <div class="col">
                         <h5>Pesan dikirim oleh: Tingkiwingki</h5>
-                        <div class="panel panel-default">
-                            <div class="panel-heading top-bar">
-                                <div class="col-md-8 col-xs-8">
-                                    <a href="listkonsultasi.html" class="button">Kembali</a>
-                                    <h5 class="panel-title"> Judul Konsultasi</h5>
-                                </div>
-                                <div class="col-md-4 col-xs-4" style="text-align: right;">
-                                    <a href="#"><span id="minim_chat_window" class="glyphicon glyphicon-minus icon_minim"></span></a>
-                                    <a href="#"><span class="glyphicon glyphicon-remove icon_close" data-id="chat_window_1"></span></a>
-                                </div>
+                        <div class="panel">
+                            <div class="panel-heading top-bar bg-dark p-2">
+                                <a href="dokterlistkonsul.html" class="btn btn-secondary btn-sm">Kembali</a>
+                                <h5 class="panel-title text-white float-right"> Judul Konsultasi</h5>
                             </div>
-                            <div class="panel-body msg_container_base">
-                                <div class="row msg_container base_receive">
-                                    <div class="col-xs-10 col-md-10">
+                            <div class="panel-body">
+                                <div class="row base_receive">
+                                    <div class="col-10">
                                         <div class="messages msg_receive">
                                             <p>Selamat pagi</p>
                                             </div>
                                     </div>
                                 </div>
-                                <div class="row msg_container base_sent">
-                                    <div class="col-md-10 col-xs-10">
+                                <div class="row base_sent">
+                                    <div class="col-10">
                                         <div class="messages msg_sent">
                                             <p>Selamat pagi</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel-footer">
+                            <div class="panel-footer bg-dark p-2">
                                 <div class="input-group">
-                                    <input id="btn-input" type="text" class="form-control input-sm chat_input" placeholder="Write your message here..." />
+                                    <input id="btn-input" type="text" class="form-control input-sm chat_input" placeholder="Ada yang bisa daya bantu?" />
                                     <span class="input-group-btn">
-                                    <button class="btn btn-primary btn-sm" id="btn-chat">Send</button>
+                                    <button class="btn btnGreen btn-sm" id="btn-chat">Send</button>
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <img src="https://drive.google.com/uc?id=1INAYlJgRNNxhubE8s0hLy7qEIvoUNPC0" alt="Profil" width="60%">
+                        <img src="../img/undraw_social_friends_nsbv.svg" alt="Profil" width="400px">
                     </div>
                 </div>
 

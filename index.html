@@ -23,31 +23,31 @@
         <a class="navbar-brand logo" href="#">Instamedic</a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <form class="form-inline navbar-nav ml-auto">
-                <button class="btn btn-outline-success nav-item btnWhite" type="submit">Masuk</button>
-                <button class="btn btnGreen" type="submit">Daftar</button>
+                <button class="btn btnWhite mx-2" type="submit">Masuk</button>
+                <button class="btn btnGreen mx-2" type="submit">Daftar</button>
             </form>
         </div>
         </div>
     </nav>
 
-    <!--header(image source pake link atau download assetnya?)-->   
+    <!--header-->   
     <div class="jumbotron text-center" id="header">
-        <img class="my-3" src="https://drive.google.com/uc?id=1RIxaOjd8MMtKttY_9_U3rhsgKivHwBGe" alt="Instamedic Medical Care" width="50%" > 
-        <p class="mx-lg-5 px-lg-5">Instamedic merupakan sebuah platform yang akan membantu kamu <b>berkonsultasi</b> dan merekomendasikan <b>obat</b>x yang sesuai dengan penyakit yang kamu alami </p>
-        <form>
-            <a class="btn btn-primary btnGreen" href="login.html" role="button">Konsultasi Sekarang</a>
-            <p class="m-1">atau</p>
-            <input type="text" class="form-control mx-sm-3" placeholder="Kamu sakit apa? ex: Batuk, Pilek, Pusing" role="button" data-toggle="collapse" href="#resultObat" aria-expanded="false" aria-controls="cariObat">
+        <img class="my-3" src="img/undraw_medical_care_movn.svg" alt="Instamedic Medical Care" width="512px" > 
+        <p class="mx-5 px-5">Instamedic merupakan sebuah platform yang akan membantu kamu <b>berkonsultasi</b> dan merekomendasikan <b>obat</b> yang sesuai dengan penyakit yang kamu alami.</p>
+        <form class="mx-5 px-5">
+            <a class="btn btnGreen" href="login.html" role="button">Konsultasi Sekarang</a>
+            <p class="m-3">atau</p>
+            <input type="text" class="form-control" placeholder="Kamu sakit apa? ex: Batuk, Pilek, Pusing" role="button" data-toggle="collapse" href="#resultObat" aria-expanded="false" aria-controls="cariObat">
             </div>
         </form>
         
         <!--Hasil pencarian obat-->
-        <div class="row" id="resultObat">
-            
+        <div class="container mx-5 px-5" id="resultObat">
             <p>Hasil pencarian obat dari sakit: <b>Batuk</b></p>
+            <div class="row mb-2">
             <div class="card">
                 <div class="card-body">
-                    <img src="https://drive.google.com/uc?id=1M9WzsBCGZW59E6wDw4fz4l3QeCSnsxA4" alt="fotoObat" width="180px">
+                    <img src="img/obh-fluBatuk.jpg" alt="fotoObat" width="180px">
                     <h5 class="card-title">Woods Batuk Berdahak</h5>
                     <p class="card-text">Deskripsiasjdlashgdias.</p>
                     <p>Kategori:</p>
@@ -55,21 +55,21 @@
                                 <li>Batuk</li>
                         </ul>
                 </div>
+            </div>    
             </div>
+            
+            <!--Obat Tidak ada-->
+            <p>Hasil pencarian obat dari sakit: <b>Corona</b>  (gambar box kosong di asset)</p>
+            <img src="img/undraw_contract_uy56.svg" height="300px" class="mx-auto d-block">
         </div>
-        <!--Obat Tidak ada-->
-        <div class="row" id="resultObat">
-            <p>Hasil pencarian obat dari sakit: <b>Corona</b>  gambarnya ga ada di asset</p>
-            <img src="https://drive.google.com/uc?id=1gLt9Owr8tO3IlQ_l2t-5jBvNhncZqUIZ" height="512px">
-        </div>
-    </div> 
+        
     </div>
 
     <!-- Footer -->
     <footer class="page-footer text-center">
-        <div class="container-fluid py-lg-5 m-lg-5">
+        <div class="container-fluid pt-5 m-5">
             <p class="logo">Instamedic</p>
-            <p>Jl. Telekomunikasi Jl. Terusan Buah Batu, Sukapura, Kec. Dayeuhkolot, Bandung, Jawa Barat 40257</p>
+            <p>Jl. Telekomunikasi Jl. Terusan Buah Batu, Sukapura, Kec. Dayeuhkolot<br>Bandung, Jawa Barat 40257</p>
         </div>
         <div class="footer-copyright pt-3 pb-1">
             <p>Instamedic © 2020 | All Right Reserved</p>

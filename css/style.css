@@ -4,6 +4,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.bgReg {
+    background-color: rgba(196, 196, 196, 0.19);
+}
+
 #wrapper {
     display: flex;
 }
@@ -56,6 +60,15 @@ body {
     font-size: 15px;
 }
 
+.panel {
+    height: 500px;
+    border-radius: 2px;
+}
+
+.panel>panel-body {
+    background-color:#d3d3d3;
+}
+
 footer {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
@@ -87,22 +100,18 @@ footer {
     border-radius: 4px;
 }
 
-.form-konten > button {
-    background: #8FB9A8;
-    border: none;
-    border-radius: 8px;
-}
-
-.form-konten > button:hover {
-    background: #729486;
-    border: none;
-    border-radius: 8px;
-}
 
 .btnWhite {
     color: #8FB9A8;
-    border: #8FB9A8;
+    background: white;
+    border: solid #8FB9A8 1px;
     border-radius: 8px;
+}
+
+.btnWhite:hover {
+    color: white;
+    background: #8FB9A8;
+    border: none;
 }
 
 .btnGreen {
@@ -110,6 +119,11 @@ footer {
     background: #8FB9A8;
     border: none;
     border-radius: 8px;
+}
+
+.btnGreen:hover{
+    color: white;
+    background: #729486;
 }
 
 .logo {

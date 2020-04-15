@@ -45,30 +45,31 @@
                     <p class="my-auto">Selamat datang, <b>dr. </b></p>
                     <i class="fas fa-sign-out-alt ml-auto">Keluar</i>
                 </nav>
-                <form>
-                    <input type="text" class="form-control mx-sm-3" placeholder="Kamu sakit apa? ex: Batuk, Pilek, Pusing" role="button" data-toggle="collapse" href="#resultObat" aria-expanded="false" aria-controls="cariObat">
-                </form>
-                
-                <!--Hasil pencarian obat-->
-                <div class="row" id="resultObat">
-                    <p>Hasil pencarian obat dari sakit: <b>Batuk</b></p>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="" alt="fotoObat">
-                            <h5 class="card-title">Woods Batuk Berdahak</h5>
-                            <p class="card-text">Deskripsiasjdlashgdias.</p>
-                            <p>Kategori:</p>
-                                <ul>
-                                        <li>Batuk</li>
-                                </ul>
+
+                <div>
+                    <h5>Cari Obat</h5>
+                    <input type="text" class="form-control" placeholder="Kamu sakit apa? ex: Batuk, Pilek, Pusing" role="button" data-toggle="collapse" href="#resultObat" aria-expanded="false" aria-controls="cariObat">
+
+                    <div class="container mx-5 px-5" id="resultObat">
+                        <p>Hasil pencarian obat dari sakit: <b>Batuk</b></p>
+                        <div class="row mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="../img/obh-fluBatuk.jpg" alt="fotoObat" width="180px">
+                                <h5 class="card-title">Woods Batuk Berdahak</h5>
+                                <p class="card-text">Deskripsiasjdlashgdias.</p>
+                                <p>Kategori:</p>
+                                    <ul>
+                                            <li>Batuk</li>
+                                    </ul>
+                            </div>
+                        </div>    
                         </div>
+                        
+                        <!--Obat Tidak ada-->
+                        <p>Hasil pencarian obat dari sakit: <b>Corona</b>  (gambar box kosong di asset)</p>
+                        <img src="../img/undraw_contract_uy56.svg" height="300px" class="mx-auto d-block">
                     </div>
-                </div>
-                
-                <!--Obat Tidak ada-->
-                <div class="row" id="resultObat">
-                    <p>Hasil pencarian obat dari sakit: <b>Corona</b></p>
-                    <img src="#">
                 </div>
             </div>
         </div>
