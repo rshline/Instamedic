@@ -67,7 +67,9 @@ body {
 .panel .panel-body {
     background-color:#C4C4C4;
     min-height: 300px;
+    max-height: 300px;
     padding: 1px;
+    overflow: auto;
 }
 
 .panel .panel-body .msg_terima {
