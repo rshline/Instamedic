@@ -45,32 +45,46 @@
                     <p class="my-auto">Selamat datang, <b>dr. </b></p>
                     <i class="fas fa-sign-out-alt ml-auto">Keluar</i>
                 </nav>
-                
-                <div class="row mx-4">
-                    <div class="col mx-2 px-2">
-                        <h5>Data Konsultasi</h5>
-                        <form class="form-konten col-xs-3">
-                        <div class="form-group">
-                            <label for="namaDokter">Nama Dokter</label>
-                            <input type="text" class="form-control" aria-describedby="drnameHelp" disabled>
-                        </div>
-                        <div class="form-group col-xs-3">
-                            <label for="spesialis">Spesialis</label>
-                            <input type="text" class="form-control" aria-describedby="spesialisHelp" disabled>
-                            <br>
-                        </div>
-                        <div class="form-group col-xs-3">
-                            <input type="text" class="form-control" id="inputJudul" aria-describedby="judulHelp" placeholder="Masukkan Judul Pesan">
-                            <small id="passwordHelpInline" class="text-muted"> *) sebelum memulai percakapan kamu harus memasukan judul pesan yang ingin kamu mulai. Contohnya: Konsultasi mengenai penyakit bisulan
-                            </small>
-                           
-                        </div>
-                        <button type="submit" class="btn btnGreen ml-auto">Mulai Percakapan</button>
-                        </form>
-                    </div> 
-                    <div class="col">
-                        <img src="../img/undraw_social_friends_nsbv.svg" alt="Profil" width="500px">
+
+                <div class="mx-4">
+                <h5>List Pesan Konsultasi</h5>
+                <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Subjek</th>
+                        <th scope="col">Deskripsi</th>
+                        <th scope="col">Nama Dokter</th>
+                        <th scope="col">Aksi</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Ciri ciri penyakit jantung</td>
+                        <td>saya ingin nanya</td>
+                        <td>Dr. Rizkyta</td>
+                        <td>
+                            <a href="#">baca</a> | <a href="#">hapus</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                    <h5>List Dokter</h5>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <div class="card" style="width: 300px;">
+                                <img src="../img/undraw_xmas_snowman_k7yf.svg" class="card-img-top" alt="fotoDokter">
+                                <div class="card-body">
+                                <h5 class="card-title">Dr. Prisla</h5>
+                                <p class="card-text">Spesialis: ...</p>
+                                <a href="#" class="btn btnWhite btn-outline">Hapus</a>
+                            </div>
                     </div>
+                        </div>
+                    </div>
+                    
                 </div>
 
             </div>
